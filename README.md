@@ -45,16 +45,16 @@ Download model and put to the folder: 'input/facenet-keras/facenet_keras.h5'
     │   ├── TruongGiang_0015.jpg
     │   └── TruongGiang_0016.jpg
 # 2. Requirements:
-!pip install mtcnn
-!pip install tensorflow<2.0
-!pip install scipy==1.1.0
-!pip install scikit-learn
-!pip install opencv-python
-!pip install h5py
-!pip install matplotlib
-!pip install Pillow
-!pip install requests
-!pip install psutil
+    !pip install mtcnn
+    !pip install tensorflow<2.0
+    !pip install scipy==1.1.0
+    !pip install scikit-learn
+    !pip install opencv-python
+    !pip install h5py
+    !pip install matplotlib
+    !pip install Pillow
+    !pip install requests
+    !pip install psutil
 # 3. Pre-processing
 ## Face alignment using MTCNN
 Using function: <code>extract_face(filename)</code>, return the faces from input image file, input image normalization: 160x160.
